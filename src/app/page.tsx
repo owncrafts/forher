@@ -43,9 +43,9 @@ const EncryptDecryptPage = () => {
       }, 2000); // Show warning for 2 seconds
     }
   };
-const handleCopy = (textToCopy) => {
+const handleCopy = (encryptedText: string) => {
   const clipboard = new ClipboardJS(".copy-button", {
-    text: () => textToCopy,
+    text: () => encryptedText,
   });
 
   clipboard.on("success", (e) => {
