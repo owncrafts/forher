@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# forher-ruddy
 
-## Getting Started
+A Next.js application for encrypting and decrypting text messages with a custom key.
 
-First, run the development server:
+## Live Demo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+You can try out the live application here: [forher-ruddy](https://forher-ruddy.vercel.app/)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Overview
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+forher-ruddy is a simple web application that allows users to:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. Encrypt text messages using a custom key
+2. Decrypt encrypted messages using the correct key
+3. Copy encrypted messages to share securely
+4. Paste encrypted messages to decrypt and view the hidden content
 
-## Learn More
+This application uses the `crypto` dependency for encryption and decryption processes.
 
-To learn more about Next.js, take a look at the following resources:
+## Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Text Encryption**: Users can input a plain text message and a custom key to generate an encrypted version of the message.
+- **Text Decryption**: Users can paste an encrypted message and provide the correct key to reveal the original plain text.
+- **Copy Functionality**: Encrypted messages can be easily copied to the clipboard for sharing.
+- **User-Friendly Interface**: Simple and intuitive design for easy navigation and usage.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## How to Use
 
-## Deploy on Vercel
+1. **Encrypt a Message**:
+   - Enter your plain text message in the input field.
+   - Provide a custom encryption key.
+   - Click the "Lock" button to encrypt the message.
+   - Copy the encrypted text to share or store securely.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. **Decrypt a Message**:
+   - Paste the encrypted message into the input field.
+   - Enter the correct decryption key.
+   - Click the "Unlock" button to reveal the original message.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Installation and Setup
+
+To run this project locally:
+
+1. Clone the repository: ``` git clone https://github.com/owncrafts/forher.git ```
+2. Navigate to the project directory:
+```cd forher```
+3. Install dependencies:
+```npm install```
+4. Run the development server:
+```npm run dev```
+5. Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
+
+## Technologies Used
+
+- Next.js
+- React
+- Crypto (for encryption/decryption)
+
+## Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/owncrafts/forher/issues).
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## Contact
+
+Project Link: [https://github.com/owncrafts/forher](https://github.com/owncrafts/forher)
