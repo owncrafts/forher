@@ -1,7 +1,7 @@
 # forher-ruddy
 
 A Next.js application for encrypting and decrypting text messages with a custom key.
-
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://myoctocat.com/assets/images/base-octocat.svg)
 ## Live Demo
 
 You can try out the live application here: [forher-ruddy](https://forher-ruddy.vercel.app/)
